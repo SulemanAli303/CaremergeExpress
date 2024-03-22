@@ -1,0 +1,51 @@
+{
+  "name": "caremerge-express-test",
+  "version": "1.0.0",
+  "description": "This test consists of three parts. You need to implement the same task three times using different control flow strategies. ",
+  "main": "NodeJSServer/plain-callbacks.js",
+  "scripts": {
+    "dev1": "nodemon NodeJSServer/plain-callbacks.js",
+    "dev2": "nodemon NodeJSServer/using-async.js",
+    "dev3": "nodemon NodeJSServer/using-promises.js",
+    "dev4": "nodemon NodeJSServer/using-step.js",
+    "dev5": "nodemon NodeJSServer/using-Q.js",
+
+    "dev6": "nodemon ExpressExamples/using-callbacks.js",
+    "dev7": "nodemon ExpressExamples/using-async.js",
+    "dev8": "nodemon ExpressExamples/using-promises.js",
+    "dev9": "nodemon ExpressExamples/using-step.js",
+    "dev10": "nodemon ExpressExamples/using-Q.js",
+
+
+
+    "start": "node NodeJSServer/plain-callbacks.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SulemanAli303/CaremergeExpress.git"
+  },
+  "keywords": [
+    "Express",
+    "Basic",
+    "Exmaples",
+    "NodeJS",
+    "Caremerge"
+  ],
+  "author": "Suleman Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SulemanAli303/CaremergeExpress/issues"
+  },
+  "homepage": "https://github.com/SulemanAli303/CaremergeExpress#readme",
+  "dependencies": {
+    "async": "^3.2.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.1",
+    "nodemon": "^3.1.0",
+    "q": "^1.5.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "step": "^1.0.0"
+  }
+}
