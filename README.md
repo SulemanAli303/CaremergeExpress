@@ -25,19 +25,45 @@ npm install
 ## Running Files
 
 To run the server using different asynchronous control strategies, you can use the npm run script commands defined in the `package.json` file. Each command corresponds to a different strategy:
-
+for run the project plain-callbacks
+```bash 
+npm run dev1  
+```
+for run the project using-async
 ```bash
-npm run dev1  //for run the priject plain-callbacks
-npm run dev2  //for run the priject using-async
-npm run dev3  //for run the priject using-promises
-npm run dev4  //for run the priject using-step
-npm run dev5  //for run the priject using-Q
-// For Express
-npm run dev6  //for run the priject plain-callbacks
-npm run dev7  //for run the priject using-async
-npm run dev8  //for run the priject using-promises
-npm run dev9  //for run the priject using-step
-npm run dev10  //for run the priject using-Q
-
+npm run dev2  
+```
+for run the project using-promises
+```bash
+npm run dev3  
+```
+for run the project using-step
+```bash
+npm run dev4  
+```
+For Express
+for run the project using-Q
+```bash
+npm run dev5 
+```
+for run the project plain-callbacks
+```bash
+npm run dev6  
+```
+for run the project using-async
+```bash
+npm run dev7  
+```
+for run the project using-promises
+```bash
+npm run dev8  
+```
+for run the project using-step
+```bash
+npm run dev9  
+```
+for run the project using-Q
+```bash
+npm run dev10 
 ```
 
